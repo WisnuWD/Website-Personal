@@ -1,0 +1,143 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 500px;
+    padding: 10px;
+    border: 5px solid black;
+    width: 200;
+    height: 200;
+  }
+
+/* Pengaturan Umum */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin-bottom: 5px;
+    font-size: 36px;
+}
+
+header .logo p {
+    font-size: 18px;
+}
+
+/* Navigasi */
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Kontainer utama */
+.container {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: white;
+    max-width: 960px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Seksi */
+.section-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.about, .vision, .mission, .contact {
+    text-align:start;
+    margin-bottom: 30px;
+}
+/*gambar*/
+.Adituntul{
+    margin: 25px;
+    border: 2px solid white;
+    border-radius: 50px;
+    
+
+}
+
+/* Kontak */
+#contact {
+    background: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact input, #contact textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button {
+    background: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background: #333;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
